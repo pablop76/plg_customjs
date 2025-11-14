@@ -5,7 +5,7 @@ Umożliwia dodawanie niestandardowych skryptów bez edytowania szablonu lub plik
 
 ## Funkcje
 
-- Automatyczne ładowanie pliku `custom.js`.
+- Automatyczne ładowanie pliku `user.js`.
 - Plik przechowywany jest w katalogu: `/media/plg_addjs/js/user.js`.
 - Możliwość łatwego dopisywania własnych skryptów.
 - Kompatybilność z Joomla 4 i Joomla 5.
