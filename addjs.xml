@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="plugin" group="system" method="upgrade">
+    <name>PLG_SYSTEM_ADD_CUSTOM_JS</name>
+    <author>pablop76</author>
+    <version>1.0.0</version>
+    <description>PLG_SYSTEM_ADD_CUSTOM_JS_DESCRIPTION</description>
+    <creationDate>11.11.25</creationDate>
+    <copyright>(C) 2024 Open Source Matters, Inc.</copyright>
+    <license>GNU General Public License version 2 or later</license>
+    <namespace path="src">Pablop76\Plugin\System\Addjs</namespace>
+    <files>
+        <folder plugin="addjs">services</folder>
+        <folder>src</folder>
+        <filename>index.html</filename>
+    </files>
+    <languages>
+        <language tag="en-GB">language/en-GB/plg_system_addjs.ini</language>
+        <language tag="en-GB">language/en-GB/plg_system_addjs.sys.ini</language>
+        <language tag="pl-PL">language/pl-PL/plg_system_addjs.ini</language>
+        <language tag="pl-PL">language/pl-PL/plg_system_addjs.sys.ini</language>
+    </languages>
+    <media destination="plg_addjs" folder="media">
+        <filename>joomla.asset.json</filename>
+        <folder>js</folder>
+    </media>
+</extension>

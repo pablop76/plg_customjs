@@ -1,0 +1,22 @@
+{
+    "$schema": "https://developer.joomla.org/schemas/json-schema/web_assets.json",
+    "name": "plg_system_addjs",
+    "version": "1.0.0",
+    "description": "add custom js joomla.asset.json file",
+    "license": "GPL-2.0+",
+    "assets": [
+        {
+            "name": "plg_addjs.addjs",
+            "type": "script",
+            "uri": "plg_addjs/user.js",
+            "attributes": {
+                "defer": true
+            },
+            "dependencies": [
+                "core",
+                "jquery"
+            ],
+            "version": "1.0.0"
+        }
+    ]
+}
